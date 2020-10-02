@@ -11,3 +11,6 @@ example:
 > ***jdk 11j9***
 
 remember to change the path of the jdk binary for each version in the switch case, add more if you want to
+
+
+[Update-Environment function](https://stackoverflow.com/questions/14381650/how-to-update-windows-powershell-session-environment-variables-from-registry)
