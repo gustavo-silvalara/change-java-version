@@ -19,7 +19,7 @@ function Update-Environment {
     }
 }
 
-Function jdk($v) {
+function jdk($v) {
     $JDK = ''
 
     switch($v){
@@ -34,4 +34,7 @@ Function jdk($v) {
     [System.Environment]::SetEnvironmentVariable('JAVA_HOME',$JDK,[System.EnvironmentVariableTarget]::User)
     
     Update-Environment
+    Update-Environment
+
+    java -version
 }
